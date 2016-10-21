@@ -1,0 +1,46 @@
+imap_append:    附加字符串到指定的邮箱中。
+imap_base64:    解 BASE64 编码。
+imap_body:    读信的内文。
+imap_check:    返回邮箱信息。
+imap_close:    关闭 IMAP 链接。
+imap_createmailbox:    建立新的信箱。
+imap_delete:    标记欲删除邮件。
+imap_deletemailbox:    删除既有信箱。
+imap_expunge:    删除已标记的邮件。
+imap_fetchbody:    从信件内文取出指定部分。
+imap_fetchstructure:    获取某信件的结构信息。
+imap_header:    获取某信件的标头信息。
+imap_headers:    获取全部信件的标头信息。
+imap_listmailbox:    获取邮箱列示。
+imap_listsubscribed:    获取订阅邮箱列示。
+imap_mail_copy:    复制指定信件到它处邮箱。
+imap_mail_move:    移动指定信件到它处邮箱。
+imap_num_msg:    取得信件数。
+imap_num_recent:    取得新进信件数。
+imap_open:    打开 IMAP 链接。
+imap_ping:    检查 IMAP 是否连接。
+imap_renamemailbox:    更改邮箱名字。
+imap_reopen:    重开 IMAP 链接。
+imap_subscribe:    订阅邮箱。
+imap_undelete:    取消删除邮件标记。
+imap_unsubscribe:    取消订阅邮箱。
+imap_qprint:    将 qp 编码转成八位。
+imap_8bit:    将八位转成 qp 编码。
+imap_binary:    将八位转成 base64 编码。
+imap_scanmailbox:    寻找信件有无特定字符串。
+imap_mailboxmsginfo:    取得目前邮箱的信息。
+imap_rfc822_write_address:    电子邮件位址标准化。
+imap_rfc822_parse_adrlist:    解析电子邮件位址。
+imap_setflag_full:    配置信件标志。
+imap_clearflag_full:    清除信件标志。
+imap_sort:    将信件标头排序。
+imap_fetchheader:    取得原始标头。
+imap_uid:    取得信件 UID。
+imap_getmailboxes:    取得全部信件详细信息。
+imap_getsubscribed:    列出所有订阅邮箱。
+imap_msgno:    列出 UID 的连续信件。
+imap_search:    搜寻指定标准的信件。
+imap_last_error:    最后的错误信息。
+imap_errors:    所有的错误信息。
+imap_alerts:    所有的警告信息。
+imap_status:    目前的状态信息。
